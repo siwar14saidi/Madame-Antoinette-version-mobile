@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/magic"
+    android:layout_height="match_parent"
+
+    tools:context=".Conseil">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/ropa_sans_italic"
+            android:gravity="center_horizontal"
+            android:text="Appuyez sur le bouton et prenez conseil avant le début de votre journée"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="50px" />
+        <TextView
+            android:id="@+id/magic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/ropa_sans_italic"
+            android:text=""
+            android:textSize="25dp"
+            android:textColor="#fff" />
+
+
+        <com.sanojpunchihewa.glowbutton.GlowButton
+            android:id="@+id/buttonstart"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="124dp"
+            android:fontFamily="@font/cinzel_decorative"
+            android:padding="20dp"
+            android:text="Start"
+            android:textColor="#000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+</ScrollView>

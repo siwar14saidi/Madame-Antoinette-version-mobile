@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/magic"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_marginTop="70dp"
+        android:layout_height="507dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="85dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/cinzel_decorative"
+                android:gravity="center"
+                android:text="REGISTER"
+                android:textColor="@color/magic"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/emailRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/ropa_sans_italic"
+                android:hint="email"
+                android:inputType="textEmailAddress"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/passwordRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/ropa_sans_italic"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/repeatPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/ropa_sans_italic"
+                android:hint="repeat password"
+                android:inputType="textPassword"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/registerBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/magic"
+                android:fontFamily="@font/cinzel_decorative"
+                android:text="Register"
+                android:textColor="#FFF" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
